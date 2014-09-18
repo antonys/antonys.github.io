@@ -1,1 +1,20 @@
-Summary
+Getting Started with QGIS: Introduction
+=======================================
+
+This workshop will introduce you to QGIS, run through some exercises to get you started with the basics, and point you in the direction of more resources and information. We'll use some humanitarian-related data from Unicef in Goma in the exercises.
+
+The workshop documentation can be found at:  
+[http://antonys.github.io/qgis-workshop](http://antonys.github.io/qgis-workshop)  
+If you have any comments on the documentation, or find any errors, drop me an email or raise an issue on GitHub.
+
+*MapAction* is a humanitarian NGO providing mapping to support disaster response. Its teams work alongside UK and other agencies in the field, both in the immediate aftermath of a disaster, and in capacity building, training and support missions. While it uses ArcGIS for its core disaster response work, it uses QGIS for training and support work.
+
+MapAction runs a dedicated project, *RAMP* (Resilient Action for Mapping Preparedness), which has developed training resources and GIS methodologies which have been rolled out in Zambia, Sri Lanka, and Democratic Republic of Congo. RAMP works with partner agencies including UN OCHA and the World Bank.
+
+*Ant Scott* is a volunteer with MapAction, and can be contacted at:  
+ascott@mapaction.org  
+@antscott  
+[http://www.mapaction.org](http://www.mapaction.org)
+
+Download QGIS 2.4 from [http://www.qgis.org](http://www.qgis.org)
+This documentation was produced using GitBook []
