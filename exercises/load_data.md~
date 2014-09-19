@@ -5,15 +5,16 @@ We'll start by loading some data into QGIS from a spreadsheet. Let's assume you 
 
 QGIS doesn't work directly with Excel or other spreadsheet files, but you can load CSV.
 
-1. Download the source data from [] - this is vulnerability analysis data used by Unicef in the Democratic Republic of Congo.
+1. Download the source data from [https://github.com/antonys/antonys.github.io/blob/master/downloads/ActivityInfo_Export_Fri_May_02_08-34-22_GeONG.csv](GitHub) - this is based on vulnerability analysis data used by Unicef in the Democratic Republic of Congo.
 2. With QGIS open, go to `Layer > Add Delimited Text Layer`, and select the data
-3. You will see a screen like this [] - at this stage you can leave all the defaults in place and click `OK`
-4. You have created your first map!
+3. You will see a screen like this ![Alternative text](../images/load_csv.png "Optional title")
+4. At this stage you can leave all the defaults in place and click `OK`
+5. You have created your first map!
 
 We'll now have a look at the data in a bit more detail.
 
 1. Double-click on the layer name in the table of contents on the right-hand side.
-2. You will see this screen ![Alternative text](../images/load_csv.png "Optional title"), which you can use to see the properties of the data, and, for example, add styling
+2. You will see this screen [], which you can use to see the properties of the data, and, for example, add styling
 3. Click on each of the options on the left to see what is available.
 4. Click on the `Fields` button, and you will see a list of the columns from the CSV which you imported.
 5. You will see that there may be some problems with some of them - for example the `Pop_1` column appears as `Text`, instead of an integer field.

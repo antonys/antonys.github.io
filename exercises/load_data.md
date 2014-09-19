@@ -5,7 +5,7 @@ We'll start by loading some data into QGIS from a spreadsheet. Let's assume you 
 
 QGIS doesn't work directly with Excel or other spreadsheet files, but you can load CSV.
 
-1. Download the source data from [https://github.com/antonys/antonys.github.io/blob/master/downloads/ActivityInfo_Export_Fri_May_02_08-34-22_GeONG.csv](GitHub) - this is based on vulnerability analysis data used by Unicef in the Democratic Republic of Congo.
+1. Download the source data from [GitHub](https://github.com/antonys/antonys.github.io/blob/master/downloads/ActivityInfo_Export_Fri_May_02_08-34-22_GeONG.csv) - this is based on vulnerability analysis data used by Unicef in the Democratic Republic of Congo.
 2. With QGIS open, go to `Layer > Add Delimited Text Layer`, and select the data
 3. You will see a screen like this ![Alternative text](../images/load_csv.png "Optional title")
 4. At this stage you can leave all the defaults in place and click `OK`
