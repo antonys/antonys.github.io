@@ -1,3 +1,11 @@
-Finding Out More
+What QGIS Can Do
 ================
+There is of course a whole load more that QGIS can do which we don't have time to cover here.
 
+This includes:
+- connecting directly to your data in a database
+- showing data from other only sources, including OGC-compliant web services such as WMS (Web Mapping Service) and WFS (Web Feature Service)
+- publish data which can be consumed by websites (using QGIS server)
+- carry out geo-processing operations, such as *buffer* and *clip*
+- carry out spatial analysis operations, such as calculating distances, finding points which fall within a polygon, and statistical analysis
+- create print-quality maps for publishing

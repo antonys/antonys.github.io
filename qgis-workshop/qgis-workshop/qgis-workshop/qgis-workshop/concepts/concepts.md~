@@ -1,0 +1,17 @@
+Concepts
+========
+
+Like any specialist area, GIS uses a lot of terminology you might not be familiar with. You'll need to learn some of this, but don't be put off - most of the concepts are pretty simple.
+
+Vector data
+Representation of objects such as points, lines and polygons by, at the simplest level, a set of geographical coordinates. Vector data usually includes attribute values for each object - for example a road number, a village name or the population of province. Vector data comes in many forms, including:
+- shapefile (ESRI)
+- KML
+- TAB file (MapInfo)
+- database table
+- csv (comma separated values) file
+
+Vector data can be manipulated, queried, styled, published, processed, combined, using GIS tools, or in some cases, standard data processing tools such as spreadsheets and databases.
+
+Raster data
+Rasters are images - for example satellite or aerial photographs, or images of maps. They are often used for map backgrounds, but can also be analysed at the pixel level, to, for example, identify land use or cover. We're not going to work with raster data in this workshop.

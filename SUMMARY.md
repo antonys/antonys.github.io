@@ -1,8 +1,5 @@
-# Summary
-
 Getting Started with QGIS: Workshop Outline
 ===========================================
-
 * [Introduction](introduction/introduction.md)
     * [About GIS and QGIS](introduction/about.md)
     * [Setting up QGIS](introduction/setting_up.md)
@@ -21,4 +18,5 @@ Getting Started with QGIS: Workshop Outline
 	* [What QGIS can do](summary/what_qgis_can_do.md)
 	* [Finding out more](summary/finding_out_more.md)
 	* [Getting involved](summary/getting_involved.md)
+	* [The end](summary/the_end.md)
 	

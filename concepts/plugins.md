@@ -7,3 +7,6 @@ Some handy plugins include:
 - OpenLayers: brings in background mapping from OpenStreetMap, Google, Bing and others
 - InaSAFE: a tool for modelling the impact of natural hazards
 - HeatMap: creates a heat map from point data
+
+Plugins are managed from the QGIS `Plugins` menu - you can choose which ones to install, and which ones to activate.
+![Plugins](../images/plugins.png "Plugins")
