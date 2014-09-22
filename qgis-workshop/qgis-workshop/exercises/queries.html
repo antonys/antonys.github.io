@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Exercise 3: Queries | antonys.github.io</title>
+        <title>Exercise 3: Queries | Getting Started with QGIS</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="3.3" data-basepath=".." data-revision="1411115765394">
+    <div class="book"  data-level="3.3" data-basepath=".." data-revision="1411319894911">
     
 
 <div class="book-summary">
@@ -371,6 +371,22 @@
             
         </li>
     
+        
+        <li class="chapter " data-level="4.4" data-path="summary/the_end.html">
+            
+                
+                    <a href="../summary/the_end.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                         The end
+                    </a>
+                
+            
+            
+        </li>
+    
 
             </ul>
             
@@ -457,7 +473,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../" >antonys.github.io</a>
+        <a href="../" >Getting Started with QGIS</a>
     </h1>
 </div>
 
@@ -465,19 +481,21 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_9">
+                    <section class="normal" id="section-gitbook_10">
                     
                         <h1 id="exercise-3-using-queries">Exercise 3: Using Queries</h1>
-<p>Although styling can represent your data in lots of ways, you may also want to manipulate or query the data itself before applying styling - for example to show only those settlements in the data where the population was greater than 1,000, or where an intervention had been carried out in the last 30 days. Of course you could do this in the source data using a spreadsheet, but this would mean going back to the source data and re-loading the data.</p>
-<p>QGIS allows us to apply filter and run queries in the attribute table, so that we can view - and if necessary save - a subset of the data we have loaded.</p>
+<p>Although styling can represent your data in lots of ways, you may also want to manipulate or query the data itself before applying styling. For example you might want to show on the map only those settlements in the data where the population was greater than 1,000, or where an intervention had been carried out in the last 30 days. Of course you could do this in the source data using a spreadsheet, but this would mean going back to the source data and re-loading the data.</p>
+<p>QGIS allows us to apply filters and run queries on the data, so that we can view - and if necessary save - a subset of the data we have loaded.</p>
+<p>Create a query which returns only those settlements where the population is greater than 1,000.</p>
 <ol>
-<li>Click on the layer in the Table of Contents to select it, then click <code>Layer &gt; Query</code> to apply a query selection to the data.</li>
-<li>In the Query window, use the dialogue to build a query - this will appear in the lower part of the dialogue.</li>
-<li>In the <code>Fields</code> panel, select a field on which to query - for example <code>Pop_1_0</code> - and then type in the panel below to complete the query.</li>
-<li>You should have a query which looks something like <code>&quot;Pop_1_0&quot; &gt; 5</code></li>
-<li>Click <code>Test</code> to make sure the query will return some rows, then click <code>OK</code> to run the query against the data.</li>
-<li>The filtered data will appear on the map.</li>
-<li>Try running some other queries on the data to see what results you get.</li>
+<li>Click on the layer in the Table of Contents to select it, then click <code>Layer &gt; Query</code> to apply a query selection to the data</li>
+<li>You will see a query dialogue <img src="../images/query.png" alt="Query Dialogue" title="Query Dialogue"></li>
+<li>In the Query window, use the dialogue to build a query - this will appear in the lower part of the dialogue</li>
+<li>In the <code>Fields</code> panel, select a field on which to query - for example <code>Pop_1</code>, and then use the buttons and the panel below to complete the query</li>
+<li>You should have a query which looks something like <code>&quot;Pop_1&quot; &gt; 1000</code></li>
+<li>Click <code>Test</code> to make sure the query will return some rows, then click <code>OK</code> to run the query against the data</li>
+<li>The filtered data will appear on the map</li>
+<li>Try running some other queries on the data to see what results you get</li>
 </ol>
 
                     

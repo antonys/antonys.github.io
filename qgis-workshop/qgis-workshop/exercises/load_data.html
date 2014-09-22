@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Exercise 1: Loading Data | antonys.github.io</title>
+        <title>Exercise 1: Loading Data | Getting Started with QGIS</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="3.1" data-basepath=".." data-revision="1411115765394">
+    <div class="book"  data-level="3.1" data-basepath=".." data-revision="1411319894911">
     
 
 <div class="book-summary">
@@ -371,6 +371,22 @@
             
         </li>
     
+        
+        <li class="chapter " data-level="4.4" data-path="summary/the_end.html">
+            
+                
+                    <a href="../summary/the_end.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                         The end
+                    </a>
+                
+            
+            
+        </li>
+    
 
             </ul>
             
@@ -457,7 +473,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../" >antonys.github.io</a>
+        <a href="../" >Getting Started with QGIS</a>
     </h1>
 </div>
 
@@ -465,29 +481,32 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_7">
+                    <section class="normal" id="section-gitbook_8">
                     
                         <h1 id="exercise-1-loading-data-into-qgis">Exercise 1: Loading Data into QGIS</h1>
 <p>We&#39;ll start by loading some data into QGIS from a spreadsheet. Let&#39;s assume you have been sent some vulnerability analysis data, and you need to load it in order to carry out some analysis.</p>
-<p>QGIS doesn&#39;t work directly with Excel or other spreadsheet files, but you can load CSV.</p>
+<p>QGIS doesn&#39;t work directly with Excel or other spreadsheet files, but you can load CSV, so if you are working with a spreadsheet, save it as CSV first.</p>
+<h2 id="load-the-data">Load the Data</h2>
 <ol>
-<li>Download the source data from <a href="https://github.com/antonys/antonys.github.io/blob/master/downloads/ActivityInfo_Export_Fri_May_02_08-34-22_GeONG.csv" target="_blank">GitHub</a> - this is based on vulnerability analysis data used by Unicef in the Democratic Republic of Congo.</li>
+<li>Download the source data from <a href="GitHub">https://github.com/antonys/antonys.github.io/blob/master/downloads/ActivityInfo_Export_Fri_May_02_08-34-22_GeONG.csv</a>. Right-click on <code>Raw</code> and <code>Save as</code> to save the file. The file contains vulnerability analysis data used by Unicef in the Democratic Republic of Congo.</li>
 <li>With QGIS open, go to <code>Layer &gt; Add Delimited Text Layer</code>, and select the data</li>
-<li>You will see a screen like this <img src="../images/load_csv.png" alt="Alternative text" title="Optional title"></li>
+<li>You will see a screen like this <img src="../images/load_csv.png" alt="Add Delimited Text Layer" title="Add Delimited Text Layer"></li>
 <li>At this stage you can leave all the defaults in place and click <code>OK</code></li>
+<li>The next dialogue asks you to confirm which Coordinate Reference System your data is in - as your data contains latitude and longitude data, choose <code>WGS84</code> <img src="../images/specify_crs.png" alt="Specify Coordinate Reference System" title="Specify Coordinate Reference System"></li>
 <li>You have created your first map!</li>
 </ol>
-<p>We&#39;ll now have a look at the data in a bit more detail.</p>
+<h2 id="look-at-the-data">Look at the Data</h2>
+<p>We&#39;ll now have a look at the data in a bit more detail.  </p>
 <ol>
 <li>Double-click on the layer name in the table of contents on the right-hand side.</li>
-<li>You will see this screen [], which you can use to see the properties of the data, and, for example, add styling</li>
+<li>You will see this screen <img src="../images/layer_properties.png" alt="Layer Properties" title="Layer Properties"> Use it to see the properties of the data, and for example add styling</li>
 <li>Click on each of the options on the left to see what is available.</li>
-<li>Click on the <code>Fields</code> button, and you will see a list of the columns from the CSV which you imported.</li>
-<li>You will see that there may be some problems with some of them - for example the <code>Pop_1</code> column appears as <code>Text</code>, instead of an integer field.</li>
-<li>This is because QGIS makes a guess at the datatype which it should use for each field when it imports it - in this case, because the data had a comma <code>,</code> in it, it decided (wrongly) that it was text.</li>
-<li>This won&#39;t be a problem if you just want to display the data. However it will prevent you using the data for calculations, or to drive styling.</li>
-<li>To fix this, open the data in a spreadsheet, and change the format of <code>Pop_1_1</code> to omit the commas. At the same time, change the format of the <code>Date1</code> field to YYYY-MM-DD - this will tell QGIS that it&#39;s a date field.</li>
-<li>When you have done this, reload the data and have another look at the fields - the fields you have changed should now be showing correctly (if you didn&#39;t have time to make the changes, an updated version can be downloaded here []).</li>
+<li>Click on the <code>Fields</code> button - you will see a list of the columns from the CSV which you imported</li>
+<li>Look at each of the fields - there may be some problems with some of them, for example the <code>Pop_1</code> column appears as <code>Text</code>, instead of an integer field</li>
+<li>This is because QGIS makes a guess at the datatype which it should use for each field when it imports it - in this case, because the data had a comma <code>,</code> in it, it decided (wrongly) that it was text</li>
+<li>This won&#39;t be a problem if you just want to display the data - however it will prevent you using the data for calculations, or to drive styling</li>
+<li>To fix this, open the data in a spreadsheet, and change the format of <code>Pop_1</code> to omit the commas</li>
+<li>When you have done this, reload the data and have another look at the fields - the field you have changed should now be showing correctly</li>
 </ol>
 
                     

@@ -1,8 +1,5 @@
-# Summary
-
 Getting Started with QGIS: Workshop Outline
 ===========================================
-
 * [Introduction](introduction/introduction.md)
     * [About GIS and QGIS](introduction/about.md)
     * [Setting up QGIS](introduction/setting_up.md)
@@ -15,9 +12,12 @@ Getting Started with QGIS: Workshop Outline
 	* [Exercise 1: Loading Data](exercises/load_data.md)
 	* [Exercise 2: Adding Style](exercises/style.md)
 	* [Exercise 3: Queries](exercises/queries.md)
-	* [Exercise 4: Making a map](exercises/making_map.md)
+	* [Exercise 4: Adding Context](exercises/context.md)
+	* [Exercise 5: Making a Map](exercises/making_map.md)
 * [Summary](summary/summary.md)
 	* [What QGIS can do](summary/what_qgis_can_do.md)
 	* [Finding out more](summary/finding_out_more.md)
 	* [Getting involved](summary/getting_involved.md)
+	* [The end](summary/the_end.md)
+* [Glossary](summary/GLOSSARY.md)
 	

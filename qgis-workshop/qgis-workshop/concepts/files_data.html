@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>File and data types | antonys.github.io</title>
+        <title>File and data types | Getting Started with QGIS</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="2.1" data-basepath=".." data-revision="1411115765394">
+    <div class="book"  data-level="2.1" data-basepath=".." data-revision="1411319894911">
     
 
 <div class="book-summary">
@@ -371,6 +371,22 @@
             
         </li>
     
+        
+        <li class="chapter " data-level="4.4" data-path="summary/the_end.html">
+            
+                
+                    <a href="../summary/the_end.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                         The end
+                    </a>
+                
+            
+            
+        </li>
+    
 
             </ul>
             
@@ -457,7 +473,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../" >antonys.github.io</a>
+        <a href="../" >Getting Started with QGIS</a>
     </h1>
 </div>
 
@@ -470,18 +486,22 @@
                         <h1 id="files-and-data">Files and Data</h1>
 <p>GIS data comes in two main flavours: <em>vector</em> and <em>raster</em>.</p>
 <h2 id="vector-data">Vector data</h2>
-<p>Representation of objects such as points, lines and polygons by, at the simplest level, a set of geographical coordinates. Vector data usually includes attribute values for each object - for example a road number, a village name or the population of province. Vector data comes in many forms, including:</p>
+<p>Vector data is used to represent objects such as points, lines and polygons by a set of geographical coordinates. Vector data usually includes attribute values for each object - for example a road number, a village name or the population of province.</p>
+<p>Vector data comes in many forms, including:</p>
 <ul>
-<li>.SHP: ESRI&#39;s shapefile format, a de facto standard for geographic data storage and exchange. In fact it&#39;s a set of files with the same name but different extensions, one of which is .shp.</li>
-<li>.KML/.KMX: Keyhole Markup Language, an XML language used in Google Earth and Google Maps</li>
-<li>.TAB: MapInfo&#39;s file format. As with shapefiles, a set of files of which one is .TAB.</li>
+<li><code>.SHP</code>: ESRI&#39;s shapefile format, a de facto standard for geographic data storage and exchange (in fact it&#39;s a set of files with the same name but different extensions, one of which is .shp)</li>
+<li><code>.KML/.KMZ</code>: Keyhole Markup Language, an XML language used in Google Earth and Google Maps</li>
+<li><code>.TAB</code>: MapInfo&#39;s file format - as with shapefiles, a set of files, of which one is .TAB.</li>
 <li>a database table</li>
-<li>.CSV (comma separated values) file</li>
+<li><code>.CSV</code> (comma separated values) files</li>
 </ul>
 <p>Vector data can be manipulated, queried, styled, published, processed, and combined, using GIS tools, or in some cases, standard data processing tools such as spreadsheets and databases.</p>
+<p>Here&#39;s an example of some vector data:<br> <img src="../images/vector.png" alt="Vector data" title="Vector data"></p>
 <h2 id="raster-data">Raster data</h2>
 <p>Rasters are images - for example satellite or aerial photographs, or images of maps. They are often used for map backgrounds, but can also be analysed at the pixel level, to, for example, identify land use or cover. We&#39;re not going to work with raster data in this workshop.</p>
-<p>Specific GIS tools tend to have their own proprietary formats for files which define the maps they produce - these files contain pointers to the data, styles, etc. For example, ESRI&#39;s Arc uses .mxd files, which QGIS uses .qgs - in QGIS this is called a <em>Project file</em>.</p>
+<p>Here&#39;s an example of some raster data: <img src="../images/raster.png" alt="Raster data" title="Raster data"></p>
+<h2 id="project-files">Project Files</h2>
+<p>Specific GIS tools have their own proprietary formats for files which define the maps they produce - these files contain pointers to the data, styles, etc. For example, ESRI&#39;s Arc uses <code>.mxd</code> files, which QGIS uses <code>.qgs</code> - in QGIS this is called a <em>Project file</em>.</p>
 
                     
                     </section>

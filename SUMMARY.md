@@ -16,7 +16,5 @@ Getting Started with QGIS: Workshop Outline
 	* [Exercise 5: Making a Map](exercises/making_map.md)
 * [Summary](summary/summary.md)
 	* [What QGIS can do](summary/what_qgis_can_do.md)
-	* [Finding out more](summary/finding_out_more.md)
 	* [Getting involved](summary/getting_involved.md)
-	* [The end](summary/the_end.md)
-	
+	* [The end](summary/the_end.md)	
