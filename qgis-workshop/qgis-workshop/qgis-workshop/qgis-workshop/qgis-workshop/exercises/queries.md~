@@ -1,9 +1,0 @@
-Exercise 3: Using Queries
-=========================
-
-Although styling can represent your data in lots of ways, you may also want to manipulate or query the data itself before applying styling - for example to show only those settlements in the data where the population was greater than 1,000, or where an intervention had been carried out in the last 30 days. Of course you could do this in the source data using a spreadsheet, but this would mean going back to the source data and re-loading the data.
-
-QGIS allows us to apply filter and run queries in the attribute table, so that we can view - and if necessary save - a subset of the data we have loaded.
-
-1. Click on the layer in the Table of Contents to select it, then open the attribute table using the button in the toolbar.
-2. 
