@@ -1,0 +1,21 @@
+Terms
+=====
+
+Here is a very short list of terms which you may come across when you use QGIS.
+
+- **Attribute**: a piece of data relating to a *feature*, for example the name of a settlement, or the population of a region
+- **Attribute table**: a table showing the *attribute* values for all the *features* in a *layer*
+- **Buffer**: an area of equal distance drawn around a point, line or polygon
+- **Clip**: to cut the size of a data object by placing a mask over it - sometimes known as 'cookie cutter'
+- **Coordinate Reference System (CRS)**: the system used to reference the x and y coordinates of your data 
+- **Feature**: an individual object in your data - for example a line, point or polygon
+- **Layer**: a set of data, usually of one type which can be turned on and off, moved above or below other layers, and styled/labelled
+- **Line**: vector data which has two ends which don't meet, possibly with intermediate points - for example roads or railway lines
+- **Plugin**: an optional application which provides additional functionality to QGIS
+- **Point**: data comprising sets of individual x and y coordinates, but not joined together - for example villages or hospitals
+- **Polygon**: data comprising one or more closed lines, forming shapes which can be filled - for example land masses, or provinces
+- **Print Composer**: the layout tool within QGIS which is used to provide 
+- **Project**
+- **Raster**
+- **Style**
+- **Vector**
