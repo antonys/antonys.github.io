@@ -9,6 +9,6 @@ ascott@mapaction.org
 @antscott  
 [http://www.mapaction.org](http://www.mapaction.org)
 
-Download QGIS 2.4 from [http://www.qgis.org](http://www.qgis.org).  
+Download QGIS from [http://www.qgis.org](http://www.qgis.org).  
 This documentation was produced using the excellent [GitBook](https://github.com/GitbookIO) package.
 

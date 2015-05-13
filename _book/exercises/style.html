@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="3.2" data-basepath=".." data-revision="1431008584183">
+    <div class="book"  data-level="3.2" data-basepath=".." data-revision="1431546561329">
     
 
 <div class="book-summary">
@@ -468,11 +468,14 @@
                     <section class="normal" id="section-gitbook_11">
                     
                         <h1 id="exercise-2-adding-style-to-data">Exercise 2: Adding Style to Data</h1>
-<p>Now that you have data loaded, you can add some style so that the data is represented on the map in a useful way. We&#39;re going to look at two or three styling options, try them out.</p>
+<p>Now that you have data loaded, you can add some style so that the data is represented on the map in a useful way. We&#39;re going to look at two or three styling options and try them out.</p>
+<blockquote>
+<p><em>Note:</em> Styling is a huge field, and we can only scratch the surface here. If you have time after you have completed the exercises below, explore the other styling options in the <code>Style</code> dialogue.</p>
+</blockquote>
 <p>First we&#39;ll look at the data itself.</p>
 <ol>
 <li>Look for the <code>Open Attribute Table</code> button in the toolbar, and click it</li>
-<li>You&#39;ll see all the data which was in the CSV file appearing in the table - so although you have created a map layer, all your source data is still available</li>
+<li>You&#39;ll see all the data in the CSV file appearing in the table - so although you have created a map layer, all your source data is still available</li>
 <li>Double-click on the layer name, and click the <code>Style</code> option - you will see a screen like this <img src="../images/style.png" alt="Style" title="Style"></li>
 <li>This is where you control how the layer appears on the map</li>
 </ol>
@@ -493,7 +496,13 @@
 <li>Click <code>OK</code></li>
 <li>Your layer should now look something like this <img src="../images/styled_layer.png" alt="Styled Layer" title="Styled Layer"></li>
 </ol>
-<p>Styling needs careful thought to make sure that your map represents the data in a way which is meaningful to the user - this is the art of cartography! In practice this usually means trying out options, and seeing what looks best - then getting some user feedback (eg from your neighbour). Spend a few minutes trying out styles.</p>
+<p>Styling needs careful thought to make sure that your map represents the data in a way which is meaningful to the user - this is the art of cartography! In practice this usually means trying out options, and seeing what looks best - then getting some user feedback (e.g. from your neighbour). Spend a few minutes trying out styles.</p>
+<p>Here are a few things to look at:</p>
+<ul>
+<li><em>Data-driven size</em>: Use <code>Advanced &gt; Size scale field</code> to vary the size of the symbol depending on the value of a field (e.g. <code>Pop_1</code>). If the symbols are too big, change the settings for the size of the symbol until it looks right (the method for this depends on the type of styling).</li>
+<li><em>Heat map</em>: Try the <code>Heat map</code> option in the style type selector at top left.</li>
+<li><em>Symbols</em>: Use a single symbol, and experiment with the settings to change its appearance. You can also import symbols from elsewhere, using the <code>Open Library</code> button.</li>
+</ul>
 
                     
                     </section>

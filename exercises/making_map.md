@@ -13,7 +13,7 @@ To do this:
 What you have created may be enough, but it is very basic - it has no title, legend, scale, north arrow etc. If you want to add all these things, you will need to use the *Print Composer* - this is a dedicated layout engine within QGIS which will help create a map with all the appropriate additions.
 
 This tool takes a little getting used to - but once you have mastered it, you will be able to produce high-quality standalone maps.
-1. Go to `Project > New Print Composer`, then click `OK' to auto-generate a title
+1. Go to `Project > New Print Composer`, then click `OK` to auto-generate a title
 2. Add a map to the blank canvas - click the `Add New Map` button in the toolbar, then click and drag in the canvas to create a frame for the map.
 3. When you release the click, the current map view will appear in the frame
 4. If you want to change this view, you will need to change the setting so that your zoom and pan controls are applied to the content of the frame, not the frame itself

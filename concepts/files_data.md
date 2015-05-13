@@ -24,3 +24,5 @@ Here's an example of some raster data: ![Raster data](../images/raster.png "Rast
 
 ## Project Files
 Specific GIS tools have their own proprietary formats for files which define the maps they produce - these files contain pointers to the data, styles, etc. For example, ESRI's Arc uses `.mxd` files, which QGIS uses `.qgs` - in QGIS this is called a *Project file*.
+
+> Note that a QGIS project file is actually an XML file, containing references to layers, styling and pretty much everything else that you configure using the QGIS interface. This can be useful, for example, when you want to correct file locations using search and replace.

@@ -1,7 +1,7 @@
 About GIS and QGIS
 ==================
 
-GIS (Geographical Information Systems) is of course about making maps - but it's also about spatial analysis, spatial queries, spatial statistics...
+*GIS* (Geographical Information Systems) is of course about making maps - but it's also about spatial analysis, spatial queries, spatial statistics...
 
 For example, we might want a map showing all the hospitals in a region, but also a tabular report showing the nearest hospital to each major settlement. Sometimes data is more useful (and more interoperable) than a map.
 
