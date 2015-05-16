@@ -9,6 +9,7 @@ Some handy plugins include:
 - HeatMap: creates a heat map from point data
 - TimeManager: creates animations from time series data
 - GroupStats: a kind of mini pivot table creator
+- Table Manager: a very simple tool to add, amend and delete fields
 
 Plugins are managed from the QGIS `Plugins` menu - you can choose which ones to install, and which ones to activate.
 ![Plugins](../images/plugins.png "Plugins")
