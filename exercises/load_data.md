@@ -7,7 +7,7 @@ QGIS will load (and save) most kinds of spatial data. However, often our startin
 QGIS doesn't work well directly with Excel or other spreadsheet files, but you can load CSV, so if you are working with a spreadsheet, save it as CSV first.
 
 ## Load the Data
-1. Download the source data from [https://github.com/antonys/antonys.github.io/blob/master/downloads/ActivityInfo_Export_Fri_May_02_08-34-22_GeONG.csv](https://github.com/antonys/antonys.github.io/blob/master/downloads/ActivityInfo_Export_Fri_May_02_08-34-22_GeONG.csv). Right-click on `Raw`, and then `Save as` to save the file. The file contains vulnerability analysis data used by Unicef in the Democratic Republic of Congo.
+1. Download the source data from [https://antonys.github.io/downloads/ActivityInfo_Export_Fri_May_02_08-34-22_GeONG.csv](https://antonys.github.io/downloads/ActivityInfo_Export_Fri_May_02_08-34-22_GeONG.csv). The file contains vulnerability analysis data used by Unicef in the Democratic Republic of Congo.
 2. With QGIS open, go to `Layer > Add Layer Add Delimited Text Layer`, and select the data
 > *Note*: Loading spreadsheet data is something that can be done in a number of ways in QGIS. As well as the method described here, you can also use `Add Vector Layer` and browse to an Excel file (though all the fields will be imported as strings), or try the `XY tools` plugin.
 3. You will see a screen like this ![Add Delimited Text Layer](../images/load_csv.png "Add Delimited Text Layer")

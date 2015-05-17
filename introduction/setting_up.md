@@ -3,7 +3,7 @@ Setting up QGIS
 ## Installation
 If you haven't already, download and install the appropriate version of QGIS for your machine from [http://www.qgis.org/](http://www.qgis.org/).
 
-Note that new versions or GGIS are usually released every few months - it's not normally necessary to upgrade, although new features are added all the time. New versions are installed as a standalone application, so you can have more than one version installed if you like.
+Note that new versions of GGIS are usually released every few months - it's not normally necessary to upgrade, although new features are added all the time. New versions are installed as a standalone application, so you can have more than one version installed if you like.
 
 ## Setting Up
 A couple of tips to get started once you have QGIS installed.
